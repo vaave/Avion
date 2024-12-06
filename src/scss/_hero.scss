@@ -1,0 +1,52 @@
+.hero {
+   padding: 60px 0;
+
+   &__body {
+      display: flex;
+      min-height: 580px;
+   }
+
+   &__content {
+      flex: 0 1 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: $dark-primary;
+      padding: 60px;
+   }
+
+   &__title {
+      font-family: $second-family;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: $white;
+      margin: 0 0 40px;
+   }
+
+   &__button {
+      color: $white;
+      background-color: rgba(249, 249, 249, 0.15);
+      margin-bottom: auto;
+      //transition: color .3s ease, background-color .3s ease;
+   }
+
+   &__text {
+      font-size: 18px;
+      color: $white;
+      margin: 20px 0 0;
+   }
+
+   &__image {
+      position: relative;
+      flex: 1 1 auto;
+      background-color: #83a9ac;
+   }
+
+   &__img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}

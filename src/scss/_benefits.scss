@@ -1,0 +1,45 @@
+.benefits {
+   padding: 60px 0;
+
+   &__header {
+      font-size: 24px;
+      text-align: center;
+      margin: 0 0 50px;
+   }
+
+   &__item {
+      grid-column: span 3;
+      padding-top: 40px;
+      background: top left no-repeat;
+      &--order {
+         background-image: url(./../src/img/benefits/1.svg);
+      }
+
+      &--handmade {
+         background-image: url(./../src/img/benefits/2.svg);
+      }
+
+      &--pay {
+         background-image: url(./../src/img/benefits/3.svg);
+      }
+
+      &--package {
+         background-image: url(./../src/img/benefits/4.svg);
+      }
+   }
+
+   &__title {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      color: $dark-primary;
+      margin: 0 0 8px;
+   }
+
+   &__text {
+      font-weight: 400;
+      font-size: 16px;
+      color: $dark-primary;
+   }
+}

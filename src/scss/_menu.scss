@@ -1,0 +1,15 @@
+.menu {
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 44px;
+   }
+
+   &__link {
+      font-size: 16px;
+      color: #726e8d;
+      text-decoration: none;
+   }
+}

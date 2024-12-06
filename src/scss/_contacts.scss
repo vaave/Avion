@@ -1,0 +1,53 @@
+.contacts {
+   background-color: $light-grey;
+   padding: 65px 0;
+
+   &__body {
+      background-color: $white;
+      padding: 65px 10px;
+   }
+
+   &__header {
+      max-width: 46%;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 70px;
+   }
+
+   &__title {
+      font-size: 36px;
+      margin: 0 0 16px;
+   }
+
+   &__text {
+      font-weight: 400;
+      font-size: 16px;
+      color: $dark-primary;
+      margin: 0;
+   }
+
+   &__form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   &__email {
+      width: 354px;
+      max-width: 100%;
+      padding-left: 16px;
+      font-family: $main-family;
+      font-weight: 400;
+      font-size: 16px;
+      color: $dark-primary;
+      border: none;
+      background-color: $light-grey;
+   }
+
+   &__button {
+      color: $white;
+      background-color: $dark-primary;
+      border: none;
+      cursor: pointer;
+   }
+}
